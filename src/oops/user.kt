@@ -1,3 +1,4 @@
+package oops
 // Concept of the Data Class
 
 data class User(val id: Int, var name: String)

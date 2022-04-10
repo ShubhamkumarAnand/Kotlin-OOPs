@@ -1,4 +1,4 @@
-/*
+package oops/*
   Concept of Getter and Setters
 */
 

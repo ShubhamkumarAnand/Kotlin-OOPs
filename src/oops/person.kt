@@ -1,3 +1,5 @@
+package oops
+
 // Primary Constructor -> (Value passed in the class)
 class Person constructor(firstName: String = "Aatma", lastName: String = "Pandey"){
 
