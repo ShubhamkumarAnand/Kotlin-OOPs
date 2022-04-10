@@ -2,7 +2,7 @@
   Concept of Getter and Setters
 */
 
-open class Car(name: String, brand: String) {
+class Car(name: String, brand: String) {
 
   lateinit var owner:String // Later Initialization of the variable
 
@@ -33,7 +33,7 @@ open class Car(name: String, brand: String) {
 }
 
 fun main(){
-  var car = Car(name, brand)
+  var car = Car("AM-3" , "Aston Martin")
 
   println("Brand of my Car is ${car.myBrand}")
   car.maxSpeed = 110
